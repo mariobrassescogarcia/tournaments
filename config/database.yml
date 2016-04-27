@@ -16,12 +16,12 @@
 #
 development:
   adapter: sqlite3
-  database: database.db
+  database: db/database.sqlite3
 
 
 test:
   adapter: sqlite3
-  database: database.db
+  database: db/database.sqlite3
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
