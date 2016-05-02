@@ -1,5 +1,12 @@
 class TournamentsController < ApplicationController
+
   def index
-    render(:index)
+
   end
+
+  def fetch
+    @tournaments = Tournament.all
+    render json: @tournaments
+  end
+
 end
